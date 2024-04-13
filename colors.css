@@ -1,0 +1,14 @@
+:root {
+    --cor-primaria:#ffffff;
+    --cor-secundaria: #000000;
+    --cor-terciaria:#000000;
+    --cor-quartenaria: #000000;
+    }
+    
+    
+    
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }

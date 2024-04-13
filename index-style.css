@@ -1,0 +1,123 @@
+
+:root {
+--cor-primaria:#0B2447;
+--cor-secundaria: #19376D;
+--cor-terciaria:#576CBC;
+--cor-quartenaria: #A5D7E8;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {background-color: var(--cor-primaria)
+    
+}
+
+header {
+
+
+    height: 8rem;
+    background-color:var(--cor-secundaria);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 100%;
+}
+
+.header-navegacao * {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    color: black;
+}
+
+.header-navegacao *:hover {
+    color: var(--cor-quartenaria);
+    transform: scale(1.10)
+}
+
+.header-navegacao {
+    display: flex;
+}
+
+.header-navegacao a:nth-child(1) {
+
+
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
+
+main {
+    background-color: var(--cor-terciaria);
+        text-align:center;
+}
+
+h1 {
+    margin-top: 1rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.cursos {
+    display: flex;
+    gap: 20px;
+    width: 80vw;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+
+.cursos__cartao {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 24px;
+    border: solid 2px var(--cor-primaria);
+    align-content: center;
+    justify-content: flex-start;
+    gap: 1px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+    height: 10rem;
+}
+
+.cursos__cartao:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; gap: 50px;
+    padding: 6rem;
+    background: rgb(9,9,121);
+background: linear-gradient(180deg, rgba(9,9,121,1) 3%, rgba(0,212,255,1) 100%);
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-links a { color: aliceblue;}
+
+.footer-links h2{ margin-bottom: 2rem;}
